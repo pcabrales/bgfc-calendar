@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#17090f">
+<title>BG FC 2026/27</title>
+<style>
+:root{--bg:#17090f;--card:#25131a;--line:#472832;--text:#fff;--muted:#cdbac1;--google:#4285f4}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+main{width:min(92vw,520px);margin:auto;padding:38px 0 48px}
+h1{font-size:34px;margin:0 0 8px}
+.intro{margin:0 0 24px;color:var(--muted);font-size:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;margin:14px 0}
+h2{font-size:18px;margin:0 0 6px}
+p{color:var(--muted);font-size:14px;line-height:1.4;margin:0 0 14px}
+.btn{display:block;width:100%;border:0;border-radius:13px;padding:15px 16px;text-align:center;text-decoration:none;font:700 16px inherit;cursor:pointer}
+.apple{background:#fff;color:#111}
+.google{background:var(--google);color:#fff}
+.other{background:#39212a;color:#fff;border:1px solid var(--line)}
+</style>
+</head>
+<body>
+<main>
+<h1>BG FC 2026/27</h1>
+<p class="intro">Add the full fixture list to your calendar.</p>
+
+<section class="card">
+<h2>iPhone / Apple Calendar</h2>
+<p>Subscribe once to add all matches and receive fixture updates.</p>
+<button class="btn apple" id="apple">Add to Apple Calendar</button>
+</section>
+
+<section class="card">
+<h2>Android / Google Calendar</h2>
+<p>Add the full BG FC calendar to Google Calendar.</p>
+<button class="btn google" id="google">Add to Google Calendar</button>
+</section>
+
+<section class="card">
+<h2>Other calendars</h2>
+<p>Download the calendar file for Outlook, Samsung Calendar and other apps.</p>
+<a class="btn other" id="download" href="BG_FC_2026-27.ics" download>Download .ics</a>
+</section>
+</main>
+
+<script>
+const httpsFeed = new URL('BG_FC_2026-27.ics', location.href).href;
+const webcalFeed = httpsFeed.replace(/^https:/,'webcal:');
+document.getElementById('apple').onclick=()=>location.href=webcalFeed;
+document.getElementById('google').onclick=()=>location.href='https://calendar.google.com/calendar/r?cid='+encodeURIComponent(webcalFeed);
+</script>
+</body>
+</html>
