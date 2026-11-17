@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BG FC//Winter League 2026-27//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BG FC | Winter League 2026/27
+X-WR-TIMEZONE:Europe/Zurich
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:bgfc-winter-2026-27-20261116-01@bgfc-calendar
+DTSTAMP:20261116T190000Z
+DTSTART:20261116T173000Z
+DTEND:20261116T183000Z
+SUMMARY:BG FC vs FC Baselona
+LOCATION:LE FIVE Saint-Louis\, Saint-Louis\, France
+DESCRIPTION:Seven League Basel Winter League 2026/27\nSource: https://seven
+ league.ch/seven-league-basel-competition-hub-de/?sl_league=winter-league-2
+ 026-27
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bgfc-winter-2026-27-20261123-02@bgfc-calendar
+DTSTAMP:20261116T190000Z
+DTSTART:20261123T173000Z
+DTEND:20261123T183000Z
+SUMMARY:BG FC vs Rhine Madrid
+LOCATION:LE FIVE Saint-Louis\, Saint-Louis\, France
+DESCRIPTION:Seven League Basel Winter League 2026/27\nSource: https://seven
+ league.ch/seven-league-basel-competition-hub-de/?sl_league=winter-league-2
+ 026-27
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bgfc-winter-2026-27-20261130-03@bgfc-calendar
+DTSTAMP:20261116T190000Z
+DTSTART:20261130T173000Z
+DTEND:20261130T183000Z
+SUMMARY:BG FC vs Joga Bonito FC
+LOCATION:LE FIVE Saint-Louis\, Saint-Louis\, France
+DESCRIPTION:Seven League Basel Winter League 2026/27\nSource: https://seven
+ league.ch/seven-league-basel-competition-hub-de/?sl_league=winter-league-2
+ 026-27
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bgfc-winter-2026-27-20261207-04@bgfc-calendar
+DTSTAMP:20261116T190000Z
+DTSTART:20261207T181000Z
+DTEND:20261207T191000Z
+SUMMARY:BG FC vs FC Sportfreunde
+LOCATION:LE FIVE Saint-Louis\, Saint-Louis\, France
+DESCRIPTION:Seven League Basel Winter League 2026/27\nSource: https://seven
+ league.ch/seven-league-basel-competition-hub-de/?sl_league=winter-league-2
+ 026-27
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bgfc-winter-2026-27-20261214-05@bgfc-calendar
+DTSTAMP:20261116T190000Z
+DTSTART:20261214T185000Z
+DTEND:20261214T195000Z
+SUMMARY:BG FC vs FC Max Basel
+LOCATION:LE FIVE Saint-Louis\, Saint-Louis\, France
+DESCRIPTION:Seven League Basel Winter League 2026/27\nSource: https://seven
+ league.ch/seven-league-basel-competition-hub-de/?sl_league=winter-league-2
+ 026-27
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bgfc-winter-2026-27-20270114-06@bgfc-calendar
+DTSTAMP:20261116T190000Z
+DTSTART:20270114T184500Z
+DTEND:20270114T194500Z
+SUMMARY:BG FC vs Dynamo Basel
+LOCATION:LE FIVE Saint-Louis\, Saint-Louis\, France
+DESCRIPTION:Seven League Basel Winter League 2026/27\nSource: https://seven
+ league.ch/seven-league-basel-competition-hub-de/?sl_league=winter-league-2
+ 026-27
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bgfc-winter-2026-27-20270118-07@bgfc-calendar
+DTSTAMP:20261116T190000Z
+DTSTART:20270118T173000Z
+DTEND:20270118T183000Z
+SUMMARY:BG FC vs DPS Basel FC
+LOCATION:LE FIVE Saint-Louis\, Saint-Louis\, France
+DESCRIPTION:Seven League Basel Winter League 2026/27\nSource: https://seven
+ league.ch/seven-league-basel-competition-hub-de/?sl_league=winter-league-2
+ 026-27
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bgfc-winter-2026-27-20270125-08@bgfc-calendar
+DTSTAMP:20261116T190000Z
+DTSTART:20270125T185000Z
+DTEND:20270125T195000Z
+SUMMARY:BG FC vs FC Legends
+LOCATION:LE FIVE Saint-Louis\, Saint-Louis\, France
+DESCRIPTION:Seven League Basel Winter League 2026/27\nSource: https://seven
+ league.ch/seven-league-basel-competition-hub-de/?sl_league=winter-league-2
+ 026-27
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bgfc-winter-2026-27-20270128-09@bgfc-calendar
+DTSTAMP:20261116T190000Z
+DTSTART:20270128T173000Z
+DTEND:20270128T183000Z
+SUMMARY:BG FC vs Borussia Morgestraich
+LOCATION:LE FIVE Saint-Louis\, Saint-Louis\, France
+DESCRIPTION:Seven League Basel Winter League 2026/27\nSource: https://seven
+ league.ch/seven-league-basel-competition-hub-de/?sl_league=winter-league-2
+ 026-27
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bgfc-winter-2026-27-20270201-10@bgfc-calendar
+DTSTAMP:20261116T190000Z
+DTSTART:20270201T173000Z
+DTEND:20270201T183000Z
+SUMMARY:BG FC vs CDMO 1897
+LOCATION:LE FIVE Saint-Louis\, Saint-Louis\, France
+DESCRIPTION:Seven League Basel Winter League 2026/27\nSource: https://seven
+ league.ch/seven-league-basel-competition-hub-de/?sl_league=winter-league-2
+ 026-27
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

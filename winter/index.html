@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#170a10">
+<meta name="description" content="Subscribe to BG FC Winter League 2026/27 fixtures.">
+<title>BG FC | Winter League 2026/27</title>
+<style>
+:root{color-scheme:dark;--bg:#170a10;--surface:#27141c;--stroke:#442935;--muted:#c7b8be;--accent:#efcf84}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;min-height:100vh;background:radial-gradient(ellipse 95% 32% at 50% 0%,#3b1424 0%,transparent 90%),var(--bg);color:#fff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif}
+main{width:min(100% - 36px,520px);margin:0 auto;padding:56px 0 48px}
+.eyebrow{color:var(--accent);font-size:11px;letter-spacing:.17em;font-weight:800;text-transform:uppercase;margin-bottom:12px}
+h1{font-size:clamp(30px,7.2vw,39px);letter-spacing:-.035em;line-height:1.05;margin:0 0 12px}
+.lead{color:var(--muted);font-size:15px;line-height:1.5;margin:0 0 28px}
+.card{padding:21px;background:var(--surface);border:1px solid var(--stroke);border-radius:17px;margin:13px 0}
+h2{font-size:17px;line-height:1.3;margin:0 0 7px}
+.card p{font-size:13px;line-height:1.45;color:var(--muted);margin:0 0 16px}
+.btn{width:100%;padding:14px 16px;border:0;border-radius:11px;display:flex;align-items:center;justify-content:center;text-align:center;text-decoration:none;cursor:pointer;font-size:15px;font-weight:750;min-height:50px}
+.apple{background:#f7f7f7;color:#151515}.google{background:#4184ed;color:#fff}.other{background:#3b2630;color:#fff;border:1px solid #674756}
+.btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.bottom{font-size:12px;text-align:center;color:#a99aa1;margin:23px 0 0}
+</style>
+</head>
+<body>
+<main>
+<div class="eyebrow">Seven League Basel</div>
+<h1>BG FC<br>Winter League 2026/27</h1>
+<p class="lead">Add all 10 confirmed matches to your calendar. Updates appear automatically when subscribed.</p>
+<section class="card">
+<h2>Apple Calendar · iPhone</h2>
+<p>Subscribe once to keep the match schedule updated.</p>
+<a class="btn apple" id="apple" href="#">Add to Apple Calendar</a>
+</section>
+<section class="card">
+<h2>Google Calendar · Android</h2>
+<p>Add the full fixture calendar with your Google account.</p>
+<a class="btn google" id="google" href="#">Add to Google Calendar</a>
+</section>
+<section class="card">
+<h2>Outlook &amp; other calendars</h2>
+<p>Download all confirmed fixtures in one calendar file.</p>
+<a class="btn other" id="download" href="BG_FC_Winter_2026-27.ics" download="BG_FC_Winter_2026-27.ics">Download calendar (.ics)</a>
+</section>
+<p class="bottom">LE FIVE Saint-Louis · 1-hour calendar blocks</p>
+</main>
+<script>
+(function(){
+ const source='https://raw.githubusercontent.com/pcabrales/bgfc-calendar/main/winter/BG_FC_Winter_2026-27.ics';
+ document.querySelector('#apple').href=source.replace(/^https:/,'webcal:');
+ document.querySelector('#google').href='https://calendar.google.com/calendar/render?cid='+encodeURIComponent(source.replace(/^https:/,'webcal:'));
+})();
+</script>
+</body>
+</html>
